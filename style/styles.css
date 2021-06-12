@@ -9,6 +9,13 @@ body {
     color: #626262;
 }
 
+.main-menu li {
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
 .ubuntufont {
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
@@ -27,14 +34,7 @@ body {
     line-height: 24px;
 }
 
-.main-menu .main-menu-item {
-    text-transform: uppercase;
-    list-style: none;
-    text-decoration: none;
-}
-
 .pictures-list li {
     list-style: none;
-
 }
 
