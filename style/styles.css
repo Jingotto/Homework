@@ -6,8 +6,8 @@ body {
     font-family: 'Playfair Display', sans-serif;
     font-size: 14px;
     line-height: 24px;
-    text-align: center;
     color: #626262;
+    text-align: center;
 }
 
 .main-menu a {
@@ -15,7 +15,7 @@ body {
 }
 
 .main-menu a:hover {
-    color: rgb(255, 0, 0);
+    color: rgb(255,0,0);
 }
 
 .site-navigation li {
@@ -46,6 +46,18 @@ body {
 .pictures-list li {
     list-style: none;
 }
+
+button {
+    background-image: url(/HW1/Homework/img/loadmorebutton.png);
+    width: 164px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #626262;
+    
+}
+
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
