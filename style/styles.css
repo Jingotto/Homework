@@ -1,5 +1,7 @@
 * {
-    margin: 5px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -7,22 +9,6 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #626262;
-    text-align: center;
-}
-
-.main-menu a {
-    text-decoration: none;
-}
-
-.main-menu a:hover {
-    color: rgb(255,0,0);
-}
-
-.site-navigation li {
-    list-style: none;
-    display: inline-block;
-    text-transform: uppercase;
-    
 }
 
 .ubuntufont {
@@ -31,20 +17,62 @@ body {
     line-height: 17px;
     text-transform: uppercase;
     color: #b4ad9e;
+    margin: 30px 0;
 }
 
 .size {
     font-size: 30px;
     line-height: 36px;
+    margin-bottom: 30px;
 }
 
-.buttonsize {
-    font-size: 20px;
-    line-height: 24px;
+header {
+    margin: 50px 0 70px 0;
+    text-align: center;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #626262;
+    padding: 30px 60px;
+}
+
+.main-menu a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.main-menu-item {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto 70px;
+}
+
+.pictures-list {
+    list-style: none;
+    margin-bottom: 60px;
 }
 
 .pictures-list li {
-    list-style: none;
+    width: 420px;
+    display: inline-block;
+}
+
+.pictures-list li:nth-child(odd) {
+    margin-right: 26px;
+}
+
+.pictures-list li:nth-child(even) {
+    margin-left: 26px;
+}
+
+.pictures-list li:nth-child(-n+4) {
+    margin-bottom: 130px;
+
 }
 
 button {
@@ -55,7 +83,8 @@ button {
     line-height: 24px;
     font-weight: 400;
     color: #626262;
-    
+    margin: 0 auto;
+    display: block;
 }
 
 
