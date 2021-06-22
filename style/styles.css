@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -9,7 +11,9 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #626262;
+    background: linear-gradient(360deg,#22c1c3, #fdbb2d);  
 }
+
 
 .ubuntufont {
     font-family: 'Ubuntu', sans-serif;
@@ -27,18 +31,26 @@ body {
 }
 
 header {
-    margin: 50px 0 70px 0;
+    margin: 0px 0 10px 0;
     text-align: center;
+}
+
+.main-header {
+    background: linear-gradient(180deg ,#22c1c3 , #fdbb2d);
+    padding: 30px 0 80px;
 }
 
 .main-menu a {
     text-decoration: none;
     color: #626262;
-    padding: 30px 60px;
+    padding: 30px 90px;
 }
 
-.main-menu a:hover {
+.main-menu a:hover,
+.main-menu a:focus {
     color: rgb(255, 0, 0);
+    text-decoration: underline;
+    background-color: rgba(0, 255, 106, 0.26);
 }
 
 .main-menu-item {
@@ -72,7 +84,6 @@ main {
 
 .pictures-list li:nth-child(-n+4) {
     margin-bottom: 130px;
-
 }
 
 button {
@@ -85,8 +96,47 @@ button {
     color: #626262;
     margin: 0 auto;
     display: block;
+    border: 0;
+    cursor: pointer;
+    background-color: #29c1bf;
 }
 
+button:hover,
+button:focus {
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 255, 0.03);
+}
+
+img {
+    box-shadow: 4px 4px 8px 2px black;
+}
+
+img:hover {
+    filter: blur(1px);
+}
+
+p::selection {
+    color: teal;
+    background-color: black;
+}
+
+a::selection {
+    color: teal;
+    background-color: black;
+}
+
+ul::selection {
+    background-color: black;
+}
+
+img::selection {
+    background-color: black;
+}
+
+button::selection {
+    color: teal;
+    background-color: black;
+}
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
