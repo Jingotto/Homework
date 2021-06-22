@@ -87,7 +87,6 @@ main {
 }
 
 button {
-    background-image: url(/HW1/Homework/img/loadmorebutton.png);
     width: 164px;
     height: 60px;
     font-size: 20px;
@@ -96,7 +95,7 @@ button {
     color: #626262;
     margin: 0 auto;
     display: block;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     cursor: pointer;
     background-color: #29c1bf;
 }
